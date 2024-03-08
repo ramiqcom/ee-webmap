@@ -25,7 +25,7 @@ export default function Home() {
       container: mapIdDiv,
       zoom: 4,
       center: [117, 0],
-      style: "https://tiles.stadiamaps.com/styles/osm_bright.json",
+      style: "https://demotiles.maplibre.org/style.json",
     });
 
     // When map is loaded fetch the tile and add it to he map
